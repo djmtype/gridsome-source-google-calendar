@@ -53,6 +53,7 @@ class GoogleCalendar {
           id: event.id,
           summary: event.summary || 'Event without summary',
           description: event.description || '',
+          location: event.location || '',
           created: event.created,
           updated: event.updated,
           allDay: (event.start.date) ? true : false,
